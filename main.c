@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include "lsh_loop.h"
 int main(int argc,char **argv){
-    printf("%d\n",argc);
-    for(int i=0;i<argc;i++)
-    printf("%s\n",argv[i]);
+    lsh_loop();
+    return EXIT_SUCCESS;
+
 }
